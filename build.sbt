@@ -4,9 +4,9 @@ organization := "com.manyangled"
 
 version := "0.1.0"
 
-scalaVersion := "2.11.8"
+scalaVersion := "2.10.6"
 
-val SPARK_VERSION = "2.1.0"
+val SPARK_VERSION = "1.6.3"
 
 resolvers ++= Seq(
   Resolver.sonatypeRepo("releases"),
